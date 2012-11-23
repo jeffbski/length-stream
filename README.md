@@ -2,7 +2,7 @@
 
 Simple pass-through stream (RW) which accumulates the length of the stream.
 
-[![Build Status](https://secure.travis-ci.org/jeffbski/length-stream.png?branch=master)](http://travis-ci.org/jeffbski/REPO)
+[![Build Status](https://secure.travis-ci.org/jeffbski/length-stream.png?branch=master)](http://travis-ci.org/jeffbski/length-stream)
 
 ## Installation
 
