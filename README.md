@@ -31,7 +31,7 @@ readstream
 
 ## Goals
 
- - Easy to use pass-through stream which calculates the length of the string
+ - Easy to use pass-through stream which calculates the length of the string or Buffer stream
  - Builds on pass-stream to have all the normal pass-through functionality for a spec compliant stream
 
 ## Why
