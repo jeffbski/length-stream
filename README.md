@@ -12,7 +12,7 @@ npm install length-stream
 
 ## Usage
 
-If you provide a lengthListener when you construct the stream, it will be called with the resultant length of the stream just prior to end being emitted.
+Provide a lengthListener function when you construct the stream, it will be called with the resultant length of the stream just prior to end being emitted.
 
  - `lengthStream(lengthListener)` - constructs a new stream instance, lengthListener will be called prior to the `end` event being emitted
  - `lengthListener` function signature is `fn(resultantLength)`
