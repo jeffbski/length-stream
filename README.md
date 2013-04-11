@@ -14,7 +14,8 @@ npm install length-stream
 
 Provide a lengthListener function when you construct the stream, it will be called with the resultant length of the stream just prior to end being emitted.
 
- - `lengthStream(lengthListener)` - constructs a new stream instance, lengthListener will be called prior to the `end` event being emitted
+ - `lengthStream([options], lengthListener)` - constructs a new stream instance, lengthListener will be called prior to the `end` event being emitted
+ - `options` - optional stream options
  - `lengthListener` function signature is `fn(resultantLength)`
 
 ```javascript
@@ -33,6 +34,7 @@ readstream
 
  - Easy to use pass-through stream which calculates the length of the string or Buffer stream
  - Builds on pass-stream to have all the normal pass-through functionality for a spec compliant stream
+ - works with node 0.10+ streams2 but is also compatible with 0.8
 
 ## Why
 

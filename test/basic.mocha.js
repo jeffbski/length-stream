@@ -22,7 +22,7 @@ test('basic use, results with length being provided to listener before end', fun
     .on('error', function (err) { done(err); })
     .on('data', function (data) { accumData.push(data); })
     .on('end', function () {
-      t.deepEqual(accumData, ['abc', 'def', 'ghi']);
+      t.deepEqual(Buffer.concat(accumData).toString(), 'abcdefghi');
       t.equal(resultantLength, 9);
       done();
     });
