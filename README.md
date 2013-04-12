@@ -1,6 +1,6 @@
 # length-stream
 
-Simple pass-through stream (RW) which accumulates the length of the stream.
+Simple pass-through stream (RW) which accumulates the length of the stream. (streams2)
 
 [![Build Status](https://secure.travis-ci.org/jeffbski/length-stream.png?branch=master)](http://travis-ci.org/jeffbski/length-stream)
 

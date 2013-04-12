@@ -1,6 +1,6 @@
 {
   "name": "length-stream",
-  "description": "length-stream - Simple pass-through stream (RW) which accumulates the length of the stream",
+  "description": "length-stream - Simple pass-through stream (RW) which accumulates the length of the stream (streams2)",
   "version": "0.1.1",
   "author": "Jeff Barczewski <jeff.barczewski@gmail.com>",
   "repository": { "type": "git", "url": "http://github.com/jeffbski/length-stream.git" },
